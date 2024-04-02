@@ -167,7 +167,7 @@ local ThunderImageUI = Instance.new("ImageLabel")
         ThunderImageUI.Image = "http://www.roblox.com/asset/?id=14288624550"
 
 _G.Logo = 16971781182
-_G.Logo1 = 14288624550
+_G.Logo1 = 16971781182
 local UI = Instance.new("ScreenGui")
 UI.Name = randomString
 UI.Parent = game.CoreGui:WaitForChild("RobloxGui"):WaitForChild("Modules")
