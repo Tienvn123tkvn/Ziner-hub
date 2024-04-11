@@ -1224,7 +1224,7 @@ Title.BackgroundTransparency = 1.000
 Title.Position = UDim2.new(0.02, 0, 0.02, 0)
 Title.Size = UDim2.new(0, 483, 0, 31)
 Title.Font = Enum.Font.LuckiestGuy
-Title.Text = "VN Hub | ".."<font color='rgb(0, 0, 255)'>[Testings]</font> 🇻🇳"
+Title.Text = "ziner Hub premium | ".."<font color='rgb(0, 0, 255)'>[Testings]</font> "
 Title.RichText = true;
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextSize = 12.000
@@ -4785,7 +4785,7 @@ end)
 local Win = library:CreateLibrary()
 local Main = Win:Tab("Home",10723407389)
 local Main_Page = Main:CraftPage(1)
-Main_Page:Label("Welcome To VN Hub")
+Main_Page:Label("Welcome To ziner Hub")
 Main_Page:Seperator("Discord")
 Main_Page:Button('Copy Link Discord Hub',function()
 setclipboard('https://v3vn.cfd/discord.php?H=VN')
