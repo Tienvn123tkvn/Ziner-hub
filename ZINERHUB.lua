@@ -12,20 +12,20 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-    profile = Window:AddTab({ Title = "Information", Icon = "apple" }),
-    Main = Window:AddTab({ Title = "Main Farm", Icon = "apple" }),
-    Sea = Window:AddTab({ Title = "Sea Event", Icon = "apple" }),
-    Setting = Window:AddTab({ Title = "Settings", Icon = "apple" }),
-    Status = Window:AddTab({ Title = "Server Stats", Icon = "apple" }),
-    Stats = Window:AddTab({ Title = "Stats", Icon = "apple" }),
-    Player = Window:AddTab({ Title = "Player pvp", Icon = "apple" }),
-    Teleport = Window:AddTab({ Title = "Teleport", Icon = "apple" }),
+    profile = Window:AddTab({ Title = "Information", Icon = "sword" }),
+    Main = Window:AddTab({ Title = "Main Farm", Icon = "home" }),
+    Sea = Window:AddTab({ Title = "Sea Event", Icon = "sea" }),
+    Setting = Window:AddTab({ Title = "Settings", Icon = "Gear" }),
+    Status = Window:AddTab({ Title = "Server Stats", Icon = "" }),
+    Stats = Window:AddTab({ Title = "Stats", Icon = "plus" }),
+    Player = Window:AddTab({ Title = "Player pvp", Icon = "sword" }),
+    Teleport = Window:AddTab({ Title = "Teleport", Icon = "tree" }),
     Fruit = Window:AddTab({ Title = "Fruit Blox ESP", Icon = "apple" }),
-    Raid = Window:AddTab({ Title = "Dungeon", Icon = "apple" }),
-    Race = Window:AddTab({ Title = "Race Trial V4", Icon = "apple" }),
-    Shop = Window:AddTab({ Title = "Shop", Icon = "apple" }),
-	Misc = Window:AddTab({ Title = "Miscellaneous", Icon = "apple" }),
-    Hop = Window:AddTab({ Title = "Hop Server", Icon = "apple" }),
+    Raid = Window:AddTab({ Title = "Dungeon", Icon = "sword" }),
+    Race = Window:AddTab({ Title = "Race Trial V4", Icon = "update" }),
+    Shop = Window:AddTab({ Title = "Shop", Icon = "shop" }),
+	Misc = Window:AddTab({ Title = "Miscellaneous", Icon = "sword" }),
+    Hop = Window:AddTab({ Title = "Hop Server", Icon = "sword" }),
 }
 local Options = Fluent.Options
 do
